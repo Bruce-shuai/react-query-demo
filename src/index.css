@@ -1,0 +1,54 @@
+:root {
+  --font-color: #ffff57;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #222;
+  color: #ddd;
+  text-align: center;
+}
+.App {
+  width: 960px;
+  margin: 0 auto;
+}
+h1 {
+  color: var(--font-color);
+  font-size: 4em;
+  /* letter-sapcing 这个是什么操作？ 用于控制字符之间的距离 */
+  letter-spacing: 2px;
+}
+button {
+  margin: 0 10px;
+  /* 这个透明背景色感觉用得挺好的 */
+  background: transparent;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  color: #ccc;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+button:hover {
+  color: #fff;
+  border-color: #fff;
+}
+.content {
+  /* 这个感觉也用得挺好的 */
+  text-align: left;
+}
+.card {
+  padding: 8px 16px;
+  background-color: #1b1b1b;
+  margin: 16px 0;
+  border-radius: 20px;
+}
+.card h3 {
+  margin: 10px 0;
+  color: var(--font-color);
+}
+.card p {
+  margin: 6px 0;
+  color: #999;
+}
